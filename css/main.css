@@ -21,7 +21,6 @@ body {
   margin: 1.5rem;
   vertical-align: middle;
   font-weight: normal;
-  color: #666;
 }
 
 img {
@@ -33,6 +32,10 @@ img {
 .btn {
   text-align: center;
   padding: 2em;
+}
+
+nav {
   border-radius: 10px;
   border-color: #333;
+  color: #666;
 }
