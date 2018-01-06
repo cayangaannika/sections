@@ -20,11 +20,13 @@ body {
   margin: 0;
   vertical-align: middle;
   font-weight: normal;
+  max-width: inherit;
 }
 
 div {
   max-width: 25em;
   display: inline-block;
+  text-align: center;
   margin: 1.5rem;
 }
 
