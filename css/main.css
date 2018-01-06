@@ -16,7 +16,6 @@ h2 {
 
 body {
   text-align: left;
-  display: inline-block;
   margin: 0;
   vertical-align: middle;
   font-weight: normal;
@@ -24,6 +23,7 @@ body {
 
 div {
   max-width: 25em;
+  display: inline-block;
 }
 
 img {
