@@ -27,14 +27,14 @@ div {
   display: inline-block;
 }
 
-p {
-  margin-bottom: 1.5rem;
-}
-
 img {
   display: block;
   padding: 1em;
   width: 100%;
+}
+
+a {
+  display: inline-block;
 }
 
 .btn {
