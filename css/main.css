@@ -2,6 +2,7 @@ html {
   background-color: #eee9de;
   line-height: 1.5;
   box-sizing: border-box;
+  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,10 +21,9 @@ body {
 }
 
 img {
-  padding: .4em .75em .5em;
+  padding: 1em;
   vertical-align: middle;
   width: 100%;
-
 }
 
 .btn {
