@@ -35,7 +35,6 @@ img {
 }
 
 nav {
-  border-radius: 10px;
-  border-color: #333;
+  border: 10px solid #333;
   color: #666;
 }
