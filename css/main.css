@@ -1,4 +1,29 @@
 html {
   background-color: #eee9de;
   line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  text-align: left;
+}
+
+body {
+  text-align: center;
+  display: inline-block;
+  max-width: 25em;
+  margin: 1.5rem;
+}
+
+img {
+  padding: .4em .75em .5em;
+  vertical-align: middle;
+}
+
+.btn {
+
 }
