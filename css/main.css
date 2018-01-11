@@ -27,7 +27,7 @@ body {
 div {
   display: inline-block;
   text-align: left;
-  margin: 1.5rem;
+  margin: 1rem;
   width: 95%;
   max-width: 370px;
 }
