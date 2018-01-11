@@ -27,7 +27,7 @@ body {
 div {
   display: inline-block;
   text-align: left;
-  margin: .5rem;
+  margin: 1.5rem;
   width: 95%;
   max-width: 370px;
 }
@@ -35,7 +35,7 @@ div {
 img {
   display: block;
   padding: 0;
-  width: 99.5%;
+  width: 100%;
   margin-top: 1em;
 
 }
