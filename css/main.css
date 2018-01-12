@@ -1,8 +1,6 @@
 html {
   background-color: #eee9de;
-  line-height: 1.5;
   box-sizing: border-box;
-  font-family: Lato, sans-serif;
 }
 
 *, *::before, *::after {
@@ -10,18 +8,18 @@ html {
 }
 
 h2 {
+  display: inline-block;
   text-align: left;
   font-weight: bold;
-  margin-top: 1.2em;
+  font-family: Lato, sans-serif;
+  margin-left: .75em;
+  margin-bottom: 1em;
+  max-width: 25em;
 }
 
 body {
-  display: inline-block;
-  text-align: center;
+  color: #333;
   margin: 0;
-  vertical-align: middle;
-  font-weight: normal;
-  max-width: 25em;
 }
 
 div {
@@ -34,24 +32,37 @@ div {
 
 img {
   display: block;
-  padding: 0;
   width: 100%;
-  margin-top: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-a {
-  display: inline-block;
-  padding: 1em;
   text-align: center;
 }
 
-.btn {
-  text-decoration: none;
-  color: #333;
+figure {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 3em;
 }
 
-nav {
-  border: 3px solid #666;
-  border-radius: 6px;
+section {
+  margin-right: 0;
+}
+
+p {
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  vertical-align: middle;
+  margin-left: 1em;
+  margin-right: 1em;
+  line-height: 1.5;
+  margin-top: 0;
+  max-width: 25em;
+}
+
+.btn {
+  border-radius: 5px;
+  border-color: #666;
+  background-color: #eee9de;
+  text-align: center;
+  margin: 1.5em;
+  padding: .75em;
+  font-size: 1rem;
 }
