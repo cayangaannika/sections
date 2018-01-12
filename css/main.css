@@ -7,6 +7,18 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+figure {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 3em;
+}
+
 h2 {
   display: inline-block;
   text-align: left;
@@ -28,18 +40,6 @@ div {
   margin: 1.5rem;
   width: 87%;
   max-width: 360px;
-}
-
-img {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-
-figure {
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 3em;
 }
 
 section {
